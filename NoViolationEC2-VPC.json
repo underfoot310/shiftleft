@@ -4,7 +4,7 @@
         "AWS::CloudFormation::Designer": {
             "38dd1faa-9304-429e-bd88-fc83c9f9dcca": {
                 "size": {
-                    "width": 60,
+                    "width": 61,
                     "height": 60
                 },
                 "position": {
