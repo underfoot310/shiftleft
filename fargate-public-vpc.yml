@@ -152,7 +152,7 @@ Resources:
     Properties:
       AccessLoggingPolicy:
           EmitInterval: 5
-          Enabled: true
+          Enabled: false
           S3BucketName: ELBLogsBucket
           3BucketPrefix: 
       Scheme: internet-facing
