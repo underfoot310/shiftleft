@@ -42,7 +42,7 @@
     "mydesignbucket": {
       "Type": "AWS::S3::Bucket",
       "Properties": {
-        "BucketName": "mydesignbucket",
+        "BucketName": "mydesignbucket2",
         "AccessControl": "PublicReadWrite",
         "BucketEncryption": {
           "ServerSideEncryptionConfiguration": [
