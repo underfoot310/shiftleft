@@ -32,6 +32,16 @@ Resources:
       EnableDnsSupport: true
       EnableDnsHostnames: true
       CidrBlock: !FindInMap ['SubnetConfig', 'VPC', 'CIDR']
+    Type: AWS::EC2::FlowLog
+    Properties: 
+      DeliverLogsPermissionArn: String
+      LogDestination: String
+      LogDestinationType: String
+      LogGroupName: String
+      ResourceId: String
+      ResourceType: String
+      TrafficType: String
+
 
   # Two public subnets, where containers can have public IP addresses
   PublicSubnetOne:
