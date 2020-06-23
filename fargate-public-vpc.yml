@@ -140,6 +140,11 @@ Resources:
   PublicLoadBalancer:
     Type: AWS::ElasticLoadBalancingV2::LoadBalancer
     Properties:
+      AccessLoggingPolicy:
+          EmitInterval: 5
+          Enabled: true
+          S3BucketName: ELBLogsBucket
+          3BucketPrefix: 
       Scheme: internet-facing
       LoadBalancerAttributes:
       - Key: idle_timeout.timeout_seconds
