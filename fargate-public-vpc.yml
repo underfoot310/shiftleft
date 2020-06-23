@@ -169,12 +169,6 @@ Resources:
   # initially, before any real service target groups have been added.
   DummyTargetGroupPublic:
     Type: AWS::ElasticLoadBalancingV2::TargetGroup
-    Properties:
-      AccessLoggingPolicy:
-          EmitInterval: 5
-          Enabled: true
-          S3BucketName: ELBLogsBucket
-          3BucketPrefix: 
       HealthCheckIntervalSeconds: 6
       HealthCheckPath: /
       HealthCheckProtocol: HTTP
