@@ -1,7 +1,7 @@
-AWSTemplateFormatVersion: '2020-06-25'
+AWSTemplateFormatVersion: '2020-06-24'
 Description: A stack for deploying containerized applications in AWS Fargate.
              This stack runs containers in a public VPC subnet, and includes a
-             public facing load balancer to register the services in.
+             public facing load balancer to register the services in. v1
 Mappings:
   # Hard values for the subnet masks. These masks define
   # the range of internal IP addresses that can be assigned.
