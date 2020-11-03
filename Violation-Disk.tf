@@ -17,7 +17,7 @@ resource "azurerm_managed_disk" "OSDisk" {
 
   	os_type 			   = "Linux"
   	encryption_settings{
-  		enabled = false
+  		enabled = true
   	}
 }
 
@@ -30,6 +30,6 @@ resource "azurerm_managed_disk" "DataDisk" {
   	disk_size_gb         = "1"
 
   	encryption_settings{
-  		enabled = false
+  		enabled = true
   	}
 }
